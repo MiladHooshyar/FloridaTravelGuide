@@ -1,4 +1,6 @@
 import os
+from collections import defaultdict
+
 import folium
 import matplotlib.pyplot as plt
 import numpy as np
@@ -7,18 +9,13 @@ from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from flask_wtf import Form
 from folium import FeatureGroup, LayerControl, Marker
-from folium.plugins.beautify_icon import BeautifyIcon
-from scipy.ndimage.filters import maximum_filter
-from scipy.ndimage.morphology import generate_binary_structure, binary_erosion
-from wtforms.fields.html5 import DecimalRangeField
-from wtforms import TextAreaField, validators
-from wtforms.validators import NumberRange
 from folium.plugins import HeatMap
-import nltk
+from folium.plugins.beautify_icon import BeautifyIcon
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import sent_tokenize
-from collections import defaultdict
-from nltk.corpus import wordnet
+from scipy.ndimage.filters import maximum_filter
+from scipy.ndimage.morphology import generate_binary_structure, binary_erosion
+from wtforms import TextAreaField, validators
 
 quandl.ApiConfig.api_key = "__vT6puk2ycpp-RXsgsY"
 

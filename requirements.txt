@@ -1,0 +1,10 @@
+# To install these Python dependencies, please type:
+# pip install -r requirements.txt
+numpy
+nltk
+flask
+flask_wtf
+flask_bootstrap
+scipy
+wtforms
+matplotlib
