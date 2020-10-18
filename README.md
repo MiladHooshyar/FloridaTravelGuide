@@ -13,3 +13,9 @@ Then deploy the app
 ```
 python app_txt_input.py
 ```
+
+# Demo
+
+Here is a short demo!
+
+<p align="left"> <img src="/demo/demo.git"  width="70"> </p>
