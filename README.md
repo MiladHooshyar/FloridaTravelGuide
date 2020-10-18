@@ -18,4 +18,4 @@ python app_txt_input.py
 
 Here is a short demo!
 
-<p align="left"> <img src="/demo/demo.git"  width="70"> </p>
+<p align="left"> <img src="/demo/demo.gif"  width="70"> </p>
